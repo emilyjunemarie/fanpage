@@ -1,0 +1,200 @@
+  @import url("https://use.typekit.net/ozr4riq.css");
+  @import url("https://use.typekit.net/ozr4riq.css");
+
+.home-image {
+  width: 100%;
+  height: 100%;
+}
+
+.backing {
+  margin: 0;
+}
+
+.headings {
+  color: white;
+  text-align: center;
+  font-family: brush-script-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100pt;
+}
+
+.line {
+  margin: 50px;
+}
+
+.parks {
+  color: white;
+  font-size: 25pt;
+  margin: 100px;
+  background-color: black;
+  text-decoration: none;
+  padding: 10px;
+  outline: 2px solid white;
+  outline-offset: 5px;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+.headimage {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.homeimage {
+  width: 75%;
+  height: 75%;
+  margin: 50px;
+  outline: 2px solid white;
+  outline-offset: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.para {
+  color: white;
+  padding: 50px;
+  text-align: center;
+  font-size: 20pt;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+}
+
+.rowtwo {
+  display: flex;
+}
+
+.columntwo {
+  flex: 50%;
+}
+
+.aboutimage {
+  width: 75%;
+  height: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  outline: 2px solid white;
+  outline-offset: 5px;
+}
+
+.abouttwo {
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  outline: 2px solid white;
+  outline-offset: 5px;
+}
+
+.houseimage {
+  width: 88%;
+  height: 88%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  outline: 2px solid white;
+  outline-offset: 5px;
+}
+
+.housetwo {
+  width: 80%;
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  outline: 2px solid white;
+  outline-offset: 5px;
+}
+
+.youtube {
+  width: 548px;
+  height: 352px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid white;
+  outline-offset: 5px;
+}
+
+.bottom {
+  color: white;
+  text-align: center;
+  font-size: 20pt;
+  background-color: black;
+  background-size: 300px 500px;
+  margin-top: 60px;
+  text-decoration: none;
+  padding: 50px;
+}
+
+.hvrbox,
+.hvrbox {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: #fff;
+}
+.hvrbox:hover .hvrbox-layer_top,
+.hvrbox.active .hvrbox-layer_top {
+	opacity: 1;
+}
+.hvrbox .hvrbox-text {
+	text-align: center;
+	font-size: 30px;
+  font-family: brush-script-std, sans-serif;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
